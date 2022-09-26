@@ -1,0 +1,122 @@
+ul.top_nav_bar { 
+    text-align:right;
+    padding: 0%;
+    background: blue;
+  }
+  
+  ul.top_nav_bar li {
+    display: inline;
+    list-style-type: none;
+  }
+  
+  ul.top_nav_bar li a{
+    font-weight: bold;
+    font-family: Arial;
+    color: white;
+    font-size: 12px;
+  }
+  
+  ul.top_nav_bar li:nth-child(1) {
+    float: left;
+    margin-left: 0.5%;
+  }
+  
+  ul.top_nav_bar li:nth-child(2) {
+    margin-right: 5%;
+  }
+  
+  ul.top_nav_bar li:nth-child(3) {
+    margin-right: 0.5%;
+  }
+
+  .main {
+    background-image: url(tetris.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 100%;
+    height: 100%;
+    background-attachment: fixed;
+    background-size: 95% 100%;
+    overflow: auto;
+  
+  }
+
+  .welcome-box{
+ 
+    margin:auto;
+    background: #c7c7c7;
+    text-align: center;
+    position: relative;
+    box-shadow:5px 5px;
+    width: 30%;
+  }
+
+  .registration-box{
+    margin:auto;
+    background: #c7c7c7;
+    text-align: center;
+    position: relative;
+    box-shadow:5px 5px;
+    width: 30%;
+  }
+
+  #tetris-bg{
+    background-image: url(tetris-grid-bg.png);
+    height:600;
+    width:300;
+    margin:auto;
+    display:flex;
+    flex-wrap:wrap;
+    background-color: c7c7c7;
+    box-shadow: 5px 5px;
+  
+  }
+
+
+#tetris-bg div div {
+  height: 30px;
+  width: 30px;
+  position: relative;
+  background-color: blue;
+  
+
+}
+
+
+
+#tetris-bg div  {
+  height: 120px;
+  width: 120px;
+  display:flex;
+  flex-wrap:wrap;
+  position:absolute;
+ 
+
+}
+
+#button{
+margin-top: 270px;
+margin-bottom: 270px;
+margin-left: 100px;
+margin-right: 100px;
+background-color: red;}
+
+#score{
+  background-color: red;
+}
+
+th{
+  background-color :blue;
+}
+table, th, td {
+  border-spacing: 2px;
+  border: 1px solid blue;
+}
+
+#score-box{
+  background-color: red;
+  margin-top: 0px;
+  margin-bottom: 590px;
+  margin-left: -80px;
+
+}

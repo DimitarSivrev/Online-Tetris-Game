@@ -1,3 +1,2 @@
 # Online-Tetris-Game
-Online tetris
-//Opened using index.php
+Online tetris - Opened using index.php
